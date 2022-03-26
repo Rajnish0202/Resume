@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fafafb;
+  color: #333;
+}
+
+section {
+  padding: 4rem 5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .heading h1 {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+.info {
+  padding: 0.5rem 0;
+}
+
+.info p {
+  padding: 0.5rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.titleContainer {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.titleHeading {
+  background: rgb(151, 149, 149);
+}
+
+.titleContainer p {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+}
+
+.table {
+  border: 2px solid #333;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.table h4 {
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 2rem;
+  border-bottom: 2px solid rgb(151, 149, 149);
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+}
+
+.table .list {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table .list li {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+}
+
+.table ul li {
+  padding: 1rem;
+  border-bottom: 2px solid #333;
+}
+
+.table ul li a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  padding: 0 0.5rem;
+}
+
+.table ul li a span {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.table .text {
+  color: #333;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: none;
+  padding-bottom: 0;
+}
